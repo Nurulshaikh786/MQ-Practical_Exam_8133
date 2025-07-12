@@ -155,8 +155,8 @@ header  .navbar ul li a{
     padding: 12px;
     margin-bottom: 20px;
     font-size: 18px;
-    color: var(--theme-white);
-    background-color: var(--theme-orange);
+    color: var(--theme-black);
+    background-color: var(--theme-blue);
     border-radius: 5px;
 }
 
