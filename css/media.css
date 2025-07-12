@@ -1,0 +1,168 @@
+@media(max-width:1399px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+
+/* lg */
+@media(max-width:1199px) {
+    .container {
+        max-width: 960px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding: 15px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding: 15px;
+    }
+   
+    .col-lg-12 {
+        width: 100%;
+        padding: 15px;
+    }
+
+   .col-3{
+    width: 25%;
+    padding: 15px;
+   }
+}
+
+/* md */
+@media(max-width:991px) {
+    .container {
+        max-width: 720px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        padding: 15px;
+    }
+    .col-8{
+        width: 70%;
+        padding: 15px;
+    }
+    .col-4{
+        width: 50%;
+        padding: 15px;
+    }
+    .col-4-md{
+        width: 30%;
+        padding: 15px;
+    }
+
+    header .navigation {
+        transition: all 0.3s ease-in-out;
+    }
+
+    header .navigation  .logo {
+        font-size: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header .navigation ul li a {
+        margin-bottom: 5px;
+        display: block;
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    .col-3{
+        width: 33.3%;
+        padding: 15px;
+    }
+}
+
+/* sm */
+@media(max-width:767px) {
+    .container {
+        max-width: 540px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-8{
+        width: 50%;
+        padding: 15px;
+    }
+    .col-4{
+        width: 50%;
+        padding: 15px;
+    }
+    .col-3{
+    width: 50%;
+    padding: 15px;
+   }
+ 
+
+   header{
+    position: relative;
+  }
+  header nav .navbar ul{
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+   header nav .navbar ul li a{
+    margin-right: 0;
+   }
+  header nav .toggle{
+    display: block;
+  }
+
+    
+
+   
+}
+
+/* xs */
+@media(max-width:575px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+        padding: 15px;
+    }
+
+     .col-8{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .col-4{
+        width: 100%;
+        padding:15px;
+    }
+
+   .col-3{
+    width: 100%;
+    padding: 15px;
+   }
+    header .navigation{
+    display: flex;
+    flex-direction: row;
+   }
+
+}
