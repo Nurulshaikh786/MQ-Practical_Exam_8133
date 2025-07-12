@@ -1,8 +1,21 @@
 Victory Restaurant - Blog Website 🍽️
+
+
 Welcome to Victory Restaurant, a clean and responsive blog-style restaurant website template. This project is built using HTML5 and CSS3, and features a beautiful hero banner, service highlights, and responsive navigation — perfect for showcasing a modern food blog or restaurant service online.
 
 Reference Website : https://templatemo.com/live/templatemo_507_victory
+
+
+
+
+
 Live Preview : https://mq-practical-exam-8133.vercel.app/
+
+
+
+
+
+
 🚀 Features
 Fully Responsive Layout
 Hero Section with CTA
